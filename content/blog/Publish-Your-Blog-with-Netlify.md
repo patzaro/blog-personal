@@ -1,10 +1,10 @@
 ---
 title: Publish Your Blog with Netlify
-description: This is a post on My Blog about Publishing a Blog with Netlify.
+description: This is a post about Publishing a Blog with Netlify.
 date: 2025-07-16
-tags: number 2
+tags: digital garden, Netlify, GitHub
 ---
-Of course! This is a classic and powerful workflow. I'll guide you through creating a blog using a **Static Site Generator (SSG)**, hosting the code on GitHub, and deploying it live to the world with Netlify.
+I'll guide you through creating a blog using a **Static Site Generator (SSG)**, hosting the code on GitHub, and deploying it live to the world with Netlify.
 
 This method is incredibly popular because it's secure, extremely fast, and largely free.
 
