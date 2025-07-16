@@ -20,7 +20,3 @@ Nunca había usado Netlify, y tengo poca experiencia en GitHub. Le pedí ayuda a
 
 
 ---
-relacionadas:
-
-
-tags: #digital-garden 
