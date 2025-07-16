@@ -1,4 +1,4 @@
-Un [[jardín digital]], o un blog, se puede alojar en Netlify.
+Un jardín digital, o un blog, se puede alojar en Netlify.
 
 Primero, debes montar el repositorio en GitHub, y luego darle acceso desde Netlify. 
 
