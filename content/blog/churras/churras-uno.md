@@ -8,3 +8,5 @@ tags:
 ---
 
 Lo creo en una carpeta nueva. ¿Se publicará igual?
+
+Sí, funciona perfectamente.
