@@ -17,4 +17,4 @@ que produce este enlace:
 
 Este enlace lleva al archivo firstpost.md, suponiendo que esté ubicado en la misma carpeta que tu post actual (content/blog/).
 
-> nota: también se pueden usar permalinks que mola más
+> *Nota: también se pueden usar permalinks que mola más.*
