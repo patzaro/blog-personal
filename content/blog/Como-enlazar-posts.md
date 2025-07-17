@@ -2,7 +2,7 @@
 title: Cómo crear enlaces a otras entradas en el blog
 description: Proceso para enlazar entre posts.
 date: 2025-07-17
-tags: links, eleventy
+tags: ["links", "eleventy"]
 ---
 
 Para crear un enlace entre entradas del blog, puedes usar una etiqueta Markdown como esta:
