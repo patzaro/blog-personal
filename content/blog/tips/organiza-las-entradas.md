@@ -4,7 +4,7 @@ description: This is a post on My Blog about agile frameworks.
 date: 2025-07-17
 tags:
   - GitHub
-  - Posts
+  - tips
 ---
 
 ## ¿Afecta en algo tener las entradas en diferentes carpetas en el repositorio de Github?
