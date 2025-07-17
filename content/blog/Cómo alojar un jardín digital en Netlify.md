@@ -13,9 +13,9 @@ Nunca había usado Netlify, y tengo poca experiencia en GitHub. Le pedí ayuda a
 ### Workflow
 
 1. Escribe tu post en tu editor markdown favorito.
-2. Sube el .md a un repositorio en GitHub. Dos métodos:
-	1. Entra en Github desde el navegador web, y sube el post a la carpeta de posts. En mi caso, a la carpeta content/blog
-	2. Usa git, si tienes el repositorio clonado en local.
+2. Sube el .md a tu repositorio en GitHub. De dos formas:
+	1. Entra en tu repo en Github con el navegador web, y sube el post a la carpeta de posts. En mi caso, a la carpeta content/blog/.
+	2. Usa git push, si tienes el repositorio clonado en local.
 3. Netlify se encarga de actualizar las entradas.
 
 
