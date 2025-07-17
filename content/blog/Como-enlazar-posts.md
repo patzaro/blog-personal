@@ -1,5 +1,5 @@
 ---
-title: Enlazar desde un post a otro en Eleventy
+title: Cómo crear enlaces a otras entradas en el blog
 description: Proceso para enlazar entre posts.
 date: 2025-07-17
 tags: links, eleventy
