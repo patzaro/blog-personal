@@ -2,9 +2,7 @@
 title: Organiza las entradas en GitHub
 description: This is a post on My Blog about agile frameworks.
 date: 2025-07-17
-tags:
-  - GitHub
-  - tips
+tags: ["GitHub", "tips"]
 ---
 
 ## ¿Afecta en algo tener las entradas en diferentes carpetas en el repositorio de Github?
