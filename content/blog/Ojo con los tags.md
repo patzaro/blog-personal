@@ -2,10 +2,10 @@
 title: Ojo con los tags
 description: This is a post on My Blog about tags.
 date: 2025-07-18
-tags: netlify
+tags: Netlify
 ---
 
-Los tags son delicados para Netlify, deben llevar el siguiente formato:
+Los tags son muy delicados para Netlify, son causa frecuente de fallos. Deben llevar el siguiente formato:
 
 ```
 tags: ["un tag", "otro tag"]
