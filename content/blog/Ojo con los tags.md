@@ -1,5 +1,5 @@
 ---
-title: Es mi primer post
+title: Ojo con los tags
 description: This is a post on My Blog about agile frameworks.
 date: 2025-07-18
 tags:
