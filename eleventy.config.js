@@ -85,18 +85,13 @@ export default async function(eleventyConfig) {
 	eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
 		// Output formats for each image.
 		formats: ["avif", "webp", "auto"],
-
-		// widths: ["auto"],
-
 		failOnError: false,
 		htmlOptions: {
 			imgAttributes: {
-				// e.g. <img loading decoding> assigned on the HTML tag will override these values.
 				loading: "lazy",
 				decoding: "async",
 			}
 		},
-
 		sharpOptions: {
 			animated: true,
 		},
@@ -104,6 +99,32 @@ export default async function(eleventyConfig) {
 
 	// Filters
 	eleventyConfig.addPlugin(pluginFilters);
+
+	// --- CAMBIO AÑADIDO: Crear colección de etiquetas ---
+	// Este bloque crea una lista limpia y única de todas las etiquetas de tu sitio.
+	eleventyConfig.addCollection("tagList", function(collectionApi) {
+		const tagSet = new Set();
+		collectionApi.getAll().forEach(item => {
+			if ("tags" in item.data) {
+				let tags = item.data.tags;
+				if (typeof tags === "string") {
+					tags = [tags];
+				}
+				// Asegurarnos de que `tags` sea un array antes de iterar
+				if(Array.isArray(tags)) {
+					tags.forEach(tag => tagSet.add(tag));
+				}
+			}
+		});
+
+		// Excluir etiquetas que no quieres que tengan su propia página
+		const unwantedTags = ["all", "posts", "post"];
+		unwantedTags.forEach(tag => tagSet.delete(tag));
+
+		// Devolver una lista ordenada alfabéticamente
+		return [...tagSet].sort((a, b) => a.localeCompare(b));
+	});
+	// --- FIN DEL CAMBIO ---
 
 	eleventyConfig.addPlugin(IdAttributePlugin, {
 		// by default we use Eleventy’s built-in `slugify` filter:
@@ -114,14 +135,6 @@ export default async function(eleventyConfig) {
 	eleventyConfig.addShortcode("currentBuildDate", () => {
 		return (new Date()).toISOString();
 	});
-
-	// Features to make your build faster (when you need them)
-
-	// If your passthrough copy gets heavy and cumbersome, add this line
-	// to emulate the file copy on the dev server. Learn more:
-	// https://www.11ty.dev/docs/copy/#emulate-passthrough-copy-during-serve
-
-	// eleventyConfig.setServerPassthroughCopyBehavior("passthrough");
 };
 
 export const config = {
@@ -148,17 +161,6 @@ export const config = {
 		data: "../_data",          // default: "_data" (`input` relative)
 		output: "_site"
 	},
-
-	// -----------------------------------------------------------------
-	// Optional items:
-	// -----------------------------------------------------------------
-
-	// If your site deploys to a subdirectory, change `pathPrefix`.
-	// Read more: https://www.11ty.dev/docs/config/#deploy-to-a-subdirectory-with-a-path-prefix
-
-	// When paired with the HTML <base> plugin https://www.11ty.dev/docs/plugins/html-base/
-	// it will transform any absolute URLs in your HTML to include this
-	// folder name and does **not** affect where things go in the output folder.
 
 	// pathPrefix: "/",
 };
