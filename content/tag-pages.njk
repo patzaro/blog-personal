@@ -1,21 +1,17 @@
 ---js
 // <script>
 const pagination = {
-	// 1. Cambiamos la fuente de datos a nuestra nueva colección limpia y única.
 	data: "collections.tagList",
 	size: 1,
 	alias: "tag",
-	// 2. El filtro ya no es necesario, porque "tagList" ya está filtrada.
 };
 
 const eleventyExcludeFromCollections = true;
 
 const eleventyComputed = {
-	// 3. (Mejora opcional) Usamos una función para el título para más seguridad.
 	title: data => `Tagged “${data.tag}”`,
 	permalink: function(data) {
-		// Tu función de permalink ya era correcta, la mantenemos.
-		return `/tag/${this.slugify(data.tag)}/`;
+	return `/tag/${this.slugify(data.tag)}/`;
 	}
 };
 ---
@@ -24,5 +20,4 @@ const eleventyComputed = {
 {% set postslist = collections[ tag ] %}
 {% include "postslist.njk" %}
 
-// # 4. Corregimos el enlace para que apunte a una URL final, no al archivo de plantilla.
 <p>See <a href="/tags/">all tags</a>.</p>
