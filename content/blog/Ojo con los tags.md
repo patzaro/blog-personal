@@ -2,7 +2,7 @@
 title: Ojo con los tags
 description: This is a post on My Blog about agile frameworks.
 date: 2025-07-18
-tags: Netlify
+tags: netlify
 ---
 Los tags son delicados para Netlify, deben llevar el siguiente formato:
 
