@@ -2,7 +2,7 @@
 title: Usar Obsidian para escribir las entradas del JD publicado en Netlify
 description: This is a post on My Blog about agile frameworks.
 date: 2025-07-16
-tags: #digital-garden #obsidian 
+tags: digital-garden , obsidian 
 ---
 
 Las entradas del JD se pueden escribir y editar en Github.
