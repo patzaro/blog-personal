@@ -6,6 +6,11 @@ const eleventyNavigation = {
 
 const numberOfLatestPostsToShow = 3;
 ---
+<div class="welcome-message">
+  <h2>Bienvenido a mi jardín digital.</h2>
+  <p>Aunque debes saber que no fue concebido para mostrar nada al mundo, sino para servir de repositorio personal y como un experimento privado.</p>
+</div>
+
 {% set postsCount = collections.posts | length %}
 {% set latestPostsCount = postsCount | min(numberOfLatestPostsToShow) %}
 <h1>Latest {{ latestPostsCount }} Post{% if latestPostsCount != 1 %}s{% endif %}</h1>
