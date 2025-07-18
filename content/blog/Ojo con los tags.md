@@ -4,7 +4,7 @@ description: This is a post on My Blog about tags.
 date: 2025-07-18
 tags: 
  - tags
- - azul
+ - obsidian
 ---
 
 Los tags son muy delicados para Netlify, son causa frecuente de fallos. Deben llevar el siguiente formato:
@@ -23,5 +23,4 @@ tags:
  - azul
 ```
 
-Si pongo un tag `caca` en minúsculas, Metlify le cambia la primera letra a mayúscula: `Caca`.
-
+Si pongo un tag `caca` en minúsculas, Metlify le cambia la primera letra a mayúscula: `Caca`. Y si pongo `digital-garden` lo cambia por `Digital-Garden`.
