@@ -1,7 +1,7 @@
 ---
 title: Usar Obsidian para escribir las entradas del JD publicado en Netlify
 description: This is a post on My Blog about agile frameworks.
-date: 2025-07-16
+date: 2025-07-18
 tags: ["digital-garden" , "obsidian"] 
 ---
 
