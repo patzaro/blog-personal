@@ -1,5 +1,5 @@
 export default {
-	title: "Base Uno Blog",
+	title: "Base Uno (jardín digital)",
 	url: "https://example.com/",
 	language: "es",
 	description: "Este puede ser mi jardín digital.",
