@@ -7,20 +7,23 @@ tags:
  - obsidian
 ---
 
+## Los tags son delicados para desplegar en Netlify
+
 Los tags son muy delicados para Netlify, son causa frecuente de fallos. Deben llevar el siguiente formato:
-
-```
-tags: ["un tag", "otro tag"]
-```
-
-Si no, Netlify da error al hacer Deploy.
-
-Pero también lo entiende así, y además, así es como los pone Obsidian:
 
 ```
 tags: 
  - blanco
  - azul
 ```
+Si no, Netlify puede dar error al hacer Deploy. Y además, así es como los pone Obsidian.
 
-Si pongo un tag `caca` en minúsculas, Metlify le cambia la primera letra a mayúscula: `Caca`. Y si pongo `digital-garden` lo cambia por `Digital-Garden`.
+Pero también lo entiende así:
+
+```
+tags: ["un tag", "otro tag"]
+```
+
+## Capitalización de las iniciales
+
+Si pongo un tag `caca` en minúsculas, Netlify le cambia la primera letra a mayúscula: `Caca`. Y si pongo `digital-garden` lo cambia por `Digital-Garden`.
