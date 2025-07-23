@@ -7,7 +7,7 @@ tags:
  - obsidian
 ---
 
-## Los tags son delicados para desplegar en Netlify
+## Los tags pueden causar problemas en Netlify
 
 Los tags son muy delicados para Netlify, son causa frecuente de fallos. Deben llevar el siguiente formato:
 
