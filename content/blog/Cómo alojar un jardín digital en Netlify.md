@@ -6,7 +6,9 @@ tags: digital-garden, Netlify, GitHub, blog
 ---
 Un jardín digital, o un blog, se puede alojar en Netlify.
 
-Primero, debes montar el repositorio en GitHub, y luego darle acceso desde Netlify. 
+## Workflow
+1. montar el repositorio en GitHub, 
+2. darle acceso desde Netlify. 
 
 Nunca había usado Netlify, y tengo poca experiencia en GitHub. Le pedí ayuda a Google AI Studio y [me guió paso a paso](https://base-uno.netlify.app/blog/publish-your-blog-with-netlify/).
 

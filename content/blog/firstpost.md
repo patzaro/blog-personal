@@ -2,7 +2,7 @@
 title: Es mi primer post.
 description: This is a post on My Blog about agile frameworks.
 date: 2025-07-16
-tags: another tag
+tags: another-tag
 ---
 Este post sirve para resumir cómo he conseguido publicar este blog. Le he pedido ayuda a Google AI Studio (Gemini 2.5 Pro) y me ha guiado paso a paso. Incluso me ha recomendado la plantilla Eleventy, que parece muy conveniente.
 

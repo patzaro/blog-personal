@@ -24,6 +24,8 @@ Pero también lo entiende así:
 tags: ["un tag", "otro tag"]
 ```
 
+Aunque parece que llega con ponerlos separados por comas.
+
 ## Capitalización de las iniciales
 
 Si pongo un tag `caca` en minúsculas, Netlify le cambia la primera letra a mayúscula: `Caca`. Y si pongo `digital-garden` lo cambia por `Digital-Garden`.
