@@ -32,8 +32,15 @@ Se puede ver como crearlos [en esta entrada](./trucos-eleventy/Como-enlazar-post
 
 ## Para qué sirve la propiedad "description" en el frontmatter
 
-Don't know
+Esta descripción suele ser utilizada para:
 
+- Mejorar el SEO (Search Engine Optimization), ya que los motores de búsqueda pueden mostrarla en sus resultados como texto resumen de la página.
+
+- Mostrarse en las etiquetas meta HTML <meta name="description" content="..."> para ofrecer una vista previa del contenido cuando se comparte el enlace en redes sociales u otras plataformas.
+
+- Proporcionar un texto resumen que puede ser mostrado en listados, índices o tarjetas dentro del sitio web.
+
+La propiedad _description_ no tiene un efecto automático en Eleventy hasta que la plantilla o layout la usa expresamente para generar etiquetas meta o contenido visual.
 
 ### Heading with a [link](#code)
 
