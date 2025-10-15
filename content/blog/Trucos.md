@@ -1,5 +1,5 @@
 ---
-title: Trucos para Eleventy y Netlify.
+title: Trucos para Eleventy y Netlify
 description: This is a post on My Blog about win-win survival strategies.
 date: 2025-10-15
 tags: ["trucos", "eleventy"]
@@ -20,6 +20,14 @@ El problema es que tienes dos tags, "Netlify" (con mayúscula) y
    para cada etiqueta. Sin embargo, al generar la URL para estas
   páginas, convierte ambos tags a "netlify", lo que provoca un
   conflicto porque intenta crear dos páginas con la misma dirección.
+
+## Títulos de las entradas
+
+El título de la entrada es el que ponga la propiedad `title`. El nombre del fichero puede ser otro.
+
+## Enlaces a otros posts del blog
+
+Se puede ver como crearlos [en esta entrada](./trucos-eleventy/Como-enlazar-posts.md)
 
 
 ### This is a very long heading that I want to wrap This is a very long heading that I want to wrap This is a very long heading that I want to wrap This is a very long heading that I want to wrap

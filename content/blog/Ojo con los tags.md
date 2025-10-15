@@ -7,9 +7,11 @@ tags:
  - obsidian
 ---
 
-## Los tags pueden causar problemas en Netlify
+## Los tags dan muchos problemas en Netlify
 
-Los tags son muy delicados para Netlify, son causa frecuente de fallos. Deben llevar el siguiente formato:
+Los tags son muy delicados para Netlify, son causa frecuente de fallos al hacer el deploy en Netlify. Mejor no poner, o solo 1 por entrada. 
+
+Deben llevar el siguiente formato:
 
 ```
 tags: 
@@ -24,7 +26,6 @@ Pero también lo entiende así:
 tags: ["un tag", "otro tag"]
 ```
 
-Aunque parece que llega con ponerlos separados por comas.
 
 ## Capitalización de las iniciales
 
