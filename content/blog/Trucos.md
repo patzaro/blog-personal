@@ -2,7 +2,7 @@
 title: Trucos para Eleventy y Netlify.
 description: This is a post on My Blog about win-win survival strategies.
 date: 2025-10-15
-tags: ["trucos", "eleventy", "netlify"]
+tags: ["trucos", "eleventy"]
 ---
 
 
