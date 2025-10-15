@@ -2,7 +2,7 @@
 title: Cómo alojar un jardín digital en Netlify
 description: This is a post on My Blog about Cómo alojar un jardín digital en Netlify.
 date: 2025-10-15
-tags: digital-garden, Netlify, GitHub, blog
+tags: digital-garden, netlify, GitHub, blog
 ---
 Un jardín digital, o un blog, se puede alojar en Netlify.
 

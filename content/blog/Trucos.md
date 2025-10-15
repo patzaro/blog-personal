@@ -12,6 +12,16 @@ tags: ["trucos", "eleventy", "netlify"]
 
 `[link](url)`
 
+## Problemas con los tags: mejor ponerlos en minúsculas
+
+El problema es que tienes dos tags, "Netlify" (con mayúscula) y
+  "netlify" (con minúscula), en las publicaciones de tu blog. Eleventy,
+  el generador de sitios que probablemente estás usando, crea una página
+   para cada etiqueta. Sin embargo, al generar la URL para estas
+  páginas, convierte ambos tags a "netlify", lo que provoca un
+  conflicto porque intenta crear dos páginas con la misma dirección.
+
+
 ### This is a very long heading that I want to wrap This is a very long heading that I want to wrap This is a very long heading that I want to wrap This is a very long heading that I want to wrap
 
 Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.
